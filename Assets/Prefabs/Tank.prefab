@@ -71,7 +71,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4948162954777984}
   - component: {fileID: 65326235443222064}
-  - component: {fileID: 54994224527906918}
+  - component: {fileID: 54631266319822814}
+  - component: {fileID: 114654791332857972}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Untagged
@@ -389,7 +390,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1061785794197200}
   m_Mesh: {fileID: 4300000, guid: 002e2a607f5b64c48be0b3b0d8b8bfdd, type: 3}
---- !u!54 &54994224527906918
+--- !u!54 &54631266319822814
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -402,7 +403,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!65 &65112983986563760
 BoxCollider:
@@ -426,8 +427,21 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5832303, y: 1.84, z: 1.6415529}
-  m_Center: {x: -0.0072904825, y: 0.9586853, z: 0.10935593}
+  m_Size: {x: 1.7168796, y: 1.8399999, z: 2.3431387}
+  m_Center: {x: 0.0014257431, y: 0.9586853, z: -0.061685562}
+--- !u!114 &114654791332857972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1508979038159974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f679c6f4e7eaa904a933141e18542b63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  angularSpeed: 30
 --- !u!198 &198472056542744062
 ParticleSystem:
   m_ObjectHideFlags: 1
