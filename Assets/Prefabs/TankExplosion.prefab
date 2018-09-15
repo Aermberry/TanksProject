@@ -103,7 +103,7 @@ ParticleSystem:
   simulationSpeed: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   autoRandomSeed: 1
   startDelay:
     serializedVersion: 2
@@ -3228,7 +3228,7 @@ ParticleSystem:
   simulationSpeed: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   autoRandomSeed: 1
   startDelay:
     serializedVersion: 2
@@ -6353,7 +6353,7 @@ ParticleSystem:
   simulationSpeed: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   autoRandomSeed: 1
   startDelay:
     serializedVersion: 2
